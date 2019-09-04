@@ -1,2 +1,2 @@
 package VT;
-#no way;
+//no way;
