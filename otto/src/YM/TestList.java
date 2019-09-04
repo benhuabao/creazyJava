@@ -32,6 +32,7 @@ public class TestList {
 		System.out.println(list.indexOf(new String("兵长")));
 		//两者都是返回的6，说明List判断两个对象只要通过equals方法比较
 		//返回的是true就行
+		//
 	}
 
 }
