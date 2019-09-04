@@ -11,6 +11,7 @@ public class testSet {
 		book.add(new String("真龙"));
 		boolean result = book.add(new String("真龙"));
 		System.out.println(result);
+		System.out.println("国玉国玉，绝世美玉");
 	}
 
 }
