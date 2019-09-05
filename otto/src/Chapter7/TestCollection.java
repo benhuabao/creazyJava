@@ -1,4 +1,4 @@
-package YM;
+package Chapter7;
 
 import java.util.ArrayList;
 import java.util.Collection;

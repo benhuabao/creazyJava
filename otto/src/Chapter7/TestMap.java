@@ -1,4 +1,4 @@
-package YM;
+package Chapter7;
 
 public class TestMap {
 
