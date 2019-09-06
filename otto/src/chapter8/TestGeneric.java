@@ -11,6 +11,11 @@ public class TestGeneric {
 		System.out.println(a);
 		apple<String> s = new apple<String>("好兄弟");
 		System.out.println(s);
+		//不管参数是什么,总是使用的同一个类,
+		List l1 = new ArrayList<Integer>();
+		List l2 = new ArrayList<String>();
+		System.out.println(l1.getClass() == l2.getClass());
+		
 	}
 
 }
