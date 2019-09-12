@@ -20,16 +20,16 @@ public class jdbcTest {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 			try {
-				connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/name?characterEncoding=utf-8", "root", "Lt6868688@");
-				String sql = "select * from user where username = ?";
+				connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/work1?characterEncoding=utf-8", "root", "lt6868688");
+				String sql = "select * from work1";
 				ps = connection.prepareStatement(sql);
 	            //设置参数，第一个参数为sql语句中参数的序号（从1开始），第二个参数为设置的参数值
-	            ps.setString(1, "王五");
+	           // ps.setString(1, "王五");
 	            //向数据库发出sql执行查询，查询出结果集
 	            rs =  ps.executeQuery();
 	            //遍历查询结果集
 	            while(rs.next()){
-	                System.out.println(rs.getString("id")+"  "+rs.getString("username"));
+	                System.out.println(rs.getString("name")+"  ");
 	            }
 			} catch (SQLException e) {
 				// TODO Auto-generated catch block
